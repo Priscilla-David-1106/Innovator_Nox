@@ -95,7 +95,7 @@ if(rs>0)
     
     PrintWriter out = response.getWriter();
       out.println("<script type=\"text/javascript\">");
-   out.println("alert('Register Seccuss...!');");
+   out.println("alert('Registered Successfully...!');");
    out.println("location='userloginp.jsp';");
    out.println("</script>");
    out.close();
